@@ -17,6 +17,7 @@ function App() {
           <Link to="/">Go Back to Home</Link>
         </nav>
         <Route exact path="/" component={ShipsHome} />
+        <Route path="/StarshipsPage" render={({location}) => <StarshipPage location={location}/>}/>
     </div>
     </Router>
   );
