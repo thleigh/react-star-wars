@@ -1,5 +1,3 @@
-const { useState } = require("react")
-
 import React, {useState, useEffect} from "react";
 import axios from "axios"
 
@@ -12,7 +10,7 @@ import {
 export default function ShipsHome(props) {
     return (
         <div>
-            
+
         </div>
     )
 }
